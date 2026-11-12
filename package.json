@@ -1,0 +1,20 @@
+{
+  "name": "offline-workdesk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1",
+    "start": "node src/portal.js",
+    "cli": "node src/cli.js",
+    "demo": "node src/cli.js demo",
+    "fixtures": "node scripts/create-fixtures.js",
+    "check": "node --check src/cli.js && node --check src/domain.js"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

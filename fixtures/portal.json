@@ -1,0 +1,9 @@
+{
+  "title": "离线工作台的远端确认采集",
+  "local": true,
+  "roles": [
+    "人工使用者"
+  ],
+  "entry": "/",
+  "scenario": "offline-workdesk"
+}
