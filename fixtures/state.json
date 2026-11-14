@@ -1,7 +1,35 @@
 {
-  "inspection": {
-    "version": 1,
-    "value": "尚未巡检",
-    "receipt": null
+  "generation": 1,
+  "inspections": {
+    "pressure": {
+      "title": "压力",
+      "version": 1,
+      "value": "尚未巡检",
+      "receipt": null
+    },
+    "temperature": {
+      "title": "温度",
+      "version": 1,
+      "value": "尚未巡检",
+      "receipt": null
+    },
+    "note": {
+      "title": "备注",
+      "version": 1,
+      "value": "尚未巡检",
+      "receipt": null
+    },
+    "photos": {
+      "title": "照片",
+      "version": 1,
+      "value": "尚未巡检",
+      "receipt": null
+    },
+    "valve": {
+      "title": "阀门",
+      "version": 1,
+      "value": "尚未巡检",
+      "receipt": null
+    }
   }
 }

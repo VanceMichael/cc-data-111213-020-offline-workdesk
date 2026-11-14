@@ -11,8 +11,9 @@
     "start": "node src/portal.js",
     "cli": "node src/cli.js",
     "demo": "node src/cli.js demo",
+    "fieldwork": "node src/cli.js fieldwork",
     "fixtures": "node scripts/create-fixtures.js",
-    "check": "node --check src/cli.js && node --check src/domain.js"
+    "check": "node --check src/cli.js && node --check src/domain.js && node --check src/portal.js && node --check src/fieldwork.js"
   },
   "dependencies": {
     "playwright": "1.56.1"
